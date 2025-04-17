@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolet-in</title>
+    <link rel="stylesheet" href="MIBOLETIN.css">
+    <script src="MIBOLETIN.js"></script>
+</head>
+<body onload="listarNotas()">
+    
+    <div class="logo">
+    <img src="cantro.png"/>  
+    <h1>BIENVENIDO A TU BOLETIN ESTUDIANTIL</h1>
+</div>
+
+    <br><br>
+    <h2>Alumno: Fernando Cifuentes</h2>
+    <h2>Documento: V-20726126</h2>
+    <br>
+
+    <H2>LISTA DE NOTAS</H2>
+    <ul id="listaNotas"></ul>
+
+<button onclick="calcularPromedio()">CALCULAR PROMEDIO</button> 
+<br>
+<h4>El promedio del alumno es: </h4>
+<h3 id="promedio"></h3>
+<br>
+<button onclick="notaMasAlta()">CALCULAR NOTA MAS ALTA</button>
+<br>
+<h4>La nota mas alta es: </h4>
+<h3 id="nota"></h3>
+<br>
+<button onclick="hayAplazo()">VERIFICAR SI HAY APLAZOS</button>
+<br>
+<h3 id="aplazo"></h3>
+<h4>Alguna materia aplazada? :  </h4>
+    
+</body>
+</html>
